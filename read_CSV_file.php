@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * function to read .csv file and return row with corresponding columns
+ */
 function read_bank_code()
 {
     $file = fopen('file.csv', 'r');

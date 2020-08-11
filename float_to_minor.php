@@ -1,6 +1,11 @@
 <?php
 
-function floatToMinor(float $amount)
+/**
+ * function to convert float amount to minor units (12 - digits)
+ * @param float $amount
+ * @return integer
+ */
+function floatToMinor(float $amount):int
 {
     $minor = "Amount should be of type float";
     $amount = number_format($amount, 2, '.', '');
